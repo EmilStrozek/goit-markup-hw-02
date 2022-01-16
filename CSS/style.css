@@ -15,7 +15,7 @@ body {
 button {
   font-family: inherit;
 }
-/* = COMPONENTS = */
+/*  COMPONENTS  */
 .active {
   color: var(--hover-color);
 }
@@ -91,7 +91,7 @@ button {
   cursor: pointer;
 }
 
-/* = NASZE ATUTY / OUR ATRIBUTES = */
+/*  NASZE ATUTY / OUR ATRIBUTES  */
 
 .atributes-list-item-header {
   font-weight: 700;
@@ -108,7 +108,7 @@ button {
   color: var(--grey-txt-color);
 }
 
-/* ====== CZYM SIĘ ZAJMUJEMY / WHAT WE DO ====== */
+/*  CZYM SIĘ ZAJMUJEMY / WHAT WE DO  */
 
 .second-header {
   font-weight: 700;
@@ -118,7 +118,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-/* = NASZ ZESPÓŁ / OUR TEAM = */
+/*  NASZ ZESPÓŁ / OUR TEAM  */
 
 .our-team {
   background-color: #f5f4fa;
@@ -140,7 +140,7 @@ button {
   color: var(--grey-txt-color);
 }
 
-/* = FOOTER = */
+/*  FOOTER  */
 
 .footer {
   background-color: var(--dark-background-color);
@@ -166,7 +166,7 @@ button {
   color: var(--white-txt-color);
 }
 
-/* = PORTFOLIO = */
+/*  PORTFOLIO  */
 
 .filter-btn {
   font-style: normal;
