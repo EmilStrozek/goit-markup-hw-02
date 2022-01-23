@@ -26,6 +26,7 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
+  text-decoration: none;
 
   letter-spacing: 0.03em;
   color: var(--hover-color);
@@ -43,6 +44,8 @@ button {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
+  text-decoration: none;
+  color:#212121
 }
 
 .email,
@@ -121,7 +124,7 @@ button {
 /*  NASZ ZESPÓŁ / OUR TEAM  */
 
 .our-team {
-  background-color: #f5f4fa;
+  background-color: #F5F4FA;
 }
 
 .our-team-list-employee {
@@ -151,6 +154,8 @@ button {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
 }
 
 .address-list-link:hover,
