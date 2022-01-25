@@ -16,10 +16,10 @@ button {
   font-family: inherit;
 }
 /*  COMPONENTS  */
-.active {
+.navigation-list-item-link.active {
   color: var(--hover-color);
 }
-/* = HEADER = */
+/*  HEADER  */
 .logo-link {
   font-family: var(--second-font-family);
   font-style: normal;
@@ -45,7 +45,7 @@ button {
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color:#212121
+  color: #212121;
 }
 
 .email,
@@ -124,7 +124,7 @@ button {
 /*  NASZ ZESPÓŁ / OUR TEAM  */
 
 .our-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .our-team-list-employee {
@@ -155,7 +155,6 @@ button {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-
 }
 
 .address-list-link:hover,
