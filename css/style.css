@@ -253,7 +253,8 @@ a {
 
 .footer {
   background-color: var(--dark-background-color);
-}
+} 
+/* background color */
 
 .footer .container {
   padding-top: 60px;
@@ -317,6 +318,11 @@ a {
   align-items: center;
 }
 
+.projects-list-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
   cursor: pointer;
@@ -329,11 +335,17 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+	padding-left: 24px;
 }
+
 
 .projects-list-type {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--grey-txt-color);
+  padding-top: 4px;
+	padding-bottom: 20px;
+	padding-left: 24px;
 }
