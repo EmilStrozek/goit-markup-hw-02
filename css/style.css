@@ -254,13 +254,41 @@ a {
 .footer {
   background-color: var(--dark-background-color);
 }
+
+.footer .container {
+  padding-top: 60px;
+}
+
+.footer .logo-link {
+  font-family: var(--second-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+
+  letter-spacing: 0.03em;
+  color: var(--hover-color);
+}
+
+.address-list {
+  padding-top: 20px;
+}
+
+.address-list-item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.address-list-item:last-child {
+  padding-bottom: 60px;
+}
+
 .address-list-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .address-list-link:hover,
