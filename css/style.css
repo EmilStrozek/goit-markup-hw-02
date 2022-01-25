@@ -15,21 +15,96 @@ body {
 button {
   font-family: inherit;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*  COMPONENTS  */
 .navigation-list-item-link.active {
   color: var(--hover-color);
 }
+
 /*  HEADER  */
-.logo-link {
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.email {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.header .logo-link {
   font-family: var(--second-font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
-  text-decoration: none;
+  /* text-decoration: none;  */
 
   letter-spacing: 0.03em;
   color: var(--hover-color);
+
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 .logo-dark {
@@ -44,8 +119,8 @@ button {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #212121;
+  /* text-decoration: none;
+  color: #212121; */
 }
 
 .email,
@@ -64,6 +139,7 @@ button {
 
 .main-header-container {
   background-color: var(--dark-background-color);
+  height: 600px;
 }
 
 .main-header {
@@ -88,6 +164,9 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-txt-color);
+  padding: 200px 0 30px;
+  width: 692px;
+  margin: 0 auto;
 }
 
 .primary-btn:hover {
@@ -102,8 +181,14 @@ button {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 200px 0 30px;
+  width: 692px;
+  margin: 0 auto;
 }
 
+.atributes-list-item-header:not(:last-child) {
+  padding-right: 30px;
+}
 .atributes-list-item-text {
   font-size: 14px;
   line-height: 1.714;
@@ -119,6 +204,12 @@ button {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+
+.what-we-do-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*  NASZ ZESPÓŁ / OUR TEAM  */
@@ -127,12 +218,26 @@ button {
   background-color: #f5f4fa;
 }
 
+.our-team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team-list-item {
+  background-color: #ffffff;
+}
+.second-header {
+  padding-bottom: 50px;
+}
+
 .our-team-list-employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.842;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .our-team-list-occupation {
@@ -141,6 +246,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--grey-txt-color);
+  padding-bottom: 30px;
 }
 
 /*  FOOTER  */
